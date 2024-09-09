@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d8664;
+    
+}
+header, footer {
+    background-color: rgb(233, 196, 151); 
+    color: rgb(230, 118, 54);
+    padding: 10px;
+}
+main {
+    padding: 20px;
+    background-color: rgb(231, 180, 212);
+}
+form {
+    background-color: rgb(187, 238, 189);
+    border: 1px solid #e2c2c2;
+    padding: 20px;
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    background-color: rgb(4, 0, 255);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: lightgrey; 
+    color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 200px;  
+}
+li{
+    display: flex;
+    align-content: flex-end;
+}
+ footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(155, 231, 174);
+    
+
+}
+header{
+    width: 1200px;
+    background-color: rgb(170, 131, 232);
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    width: 1200px;
+    background-color:o;
+    text-align: center;
+    padding: 10px;
+    height: 80px;
+}
+#container{
+    background-color: rgb(217, 243, 102);
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 5px;
+    justify-content: space-around;
+   
+}
+div{
+    border: 2px solid #0c3641;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+ 
+}
+.price{
+    font-size: 20px ;
+    color:#de1c1c
+}
+#matter{
+    text-align: center;
+    width: 1200px;
+    margin-left: 10px;
+    background-color:oldlace;
+}
